@@ -1,0 +1,60 @@
+\documentclass[9pt, twocolumn, oneside, a4paper]{memoir}
+\usepackage{fontspec}
+\setmainfont{Alegreya}
+\usepackage{ragged2e}
+\newfontfamily\scshape{Alegreya SC}
+\newfontfamily\headingfont{Alegreya Sans SC}
+\newfontfamily\subheadingfont[
+    BoldFont={Alegreya Sans Medium},
+    ItalicFont={Alegreya Sans Light Italic},
+    BoldItalicFont={Alegreya Sans Medium Italic}
+]{Alegreya Sans Light}
+\newfontfamily\greekfont[Script=Greek, Scale=1.14, WordSpace=0.7]{GFS Neohellenic}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+\newcommand{\greektext}[1]{\foreignlanguage{greek}{#1}}
+
+\usepackage{microtype}
+\emergencystretch \hsize
+\tolerance 300%
+\setlength{\parskip}{0pt}
+\frenchspacing
+
+\usepackage{titlesec}
+\titleformat*{\section}{\headingfont}
+
+\setlrmarginsandblock{1.37in}{*}{*}
+\setulmarginsandblock{1.29in}{*}{2}
+
+\checkandfixthelayout
+\setmarginnotes{\columnsep}{0.93in}{0.5\onelineskip}
+
+\pretitle{\par\raggedright\Huge\subheadingfont}
+\title{\textit{Second Apology}, ch. 6, 10, 13}
+\posttitle{ \textperiodcentered} 
+\preauthor{\raggedright\Huge\subheadingfont}
+\author{ Justin Martyr}
+\postauthor{\vskip 0.5em}
+\predate{}
+\date{}
+\postdate{}
+
+\newcommand{\gloss}[1]{%
+    \marginpar[\RaggedLeft \footnotesize{#1}]{\RaggedRight \footnotesize{#1}}}
+
+\begin{document}
+\maketitle
+\section*{Chapter 6. Names of God and of Christ, their meaning and power}
+
+
+But to the Father of all, who is unbegotten there is no name given. For by whatever name He be called, He has as His elder the person who gives Him the name. But these words Father, and God, and Creator, and Lord, and Master, are not names, but appellations derived from His good deeds and functions. And His Son, who alone is properly called Son, the Word who also was with Him and was begotten before the works, when at first He created and arranged all things by Him, is called Christ, in reference to His being anointed and God's ordering all things through Him; this name itself also containing an unknown significance; as also the appellation ``God'' is not a name, but an opinion implanted in the nature of men of a thing that can hardly be explained. But ``Jesus,'' His name as man and Saviour, has also significance. For He was made man also, as we before said, having been conceived according to the will of God the Father, for the sake of believing men, and for the destruction of the demons. And now you can learn this from what is under your own observation. For numberless demoniacs throughout the whole world, and in your city, many of our Christian men exorcising them in the name of Jesus Christ, who was crucified under Pontius Pilate, have healed and do heal, rendering helpless and driving the possessing devils out of the men, though they could not be cured by all the other exorcists, and those who used incantations and drugs.
+\section*{Chapter 10. Christ compared with Socrates}
+
+
+Our doctrines, then, appear to be greater than all human teaching; because Christ, who appeared for our sakes, became the whole rational being, both body, and reason, and soul. For I whatever either lawgivers or philosophers uttered well, they elaborated by finding and contemplating some part of the Word. But since they I did not know the whole of the Word, which is Christ, they often contradicted themselves. And those who by human birth were more ancient than Christ, when they attempted to consider and prove things by reason, were brought before the tribunals as impious persons and busybodies. And Socrates, who was more zealous in this direction than all of them, was accused of the very same crimes as ourselves. For they said that he was introducing new divinities, and did not consider those to be gods whom the state recognised. But he cast out from the state both Homer  and the rest of the poets, and taught men to reject the wicked demons and those who did the things which the poets related; and he exhorted them to become acquainted with the God who was to them unknown, by means of the investigation of reason, saying, ``That it is neither easy to find the Father and Maker of all, nor, having found Him, is it safe to declare Him to all.''  But these things our Christ did through His own power. For no one trusted in Socrates so as to die for this doctrine, but in Christ, who was partially known even by Socrates (for He was and is the Word who is in every man, and who foretold the things that were to come to pass both through the prophets and in His own person when He was made of like passions, and taught these things), not only philosophers and scholars believed, but also artisans and people entirely uneducated, despising both glory, and fear, and  death; since He is a power of the ineffable Father, not the mere instrument of human reason. 
+\section*{Chapter 13. How the Word has been in all men}
+
+
+For I myself, when I discovered tile wicked disguise which the evil spirits had thrown around the divine doctrines of the Christians, to turn aside others from joining them, laughed both at those who framed these falsehoods, and at the disguise itself and at popular opinion and I confess that I both boast and with all my strength  strive to be found a Christian; not because the teachings of Plato are different from those of Christ, but because they are not in all respects similar, as neither are those of the others, Stoics, and poets, and historians. For each man spoke well in proportion to the share he had of the spermatic word,  seeing what was related to it. But they who contradict themselves on the more important points appear not to have possessed the heavenly  wisdom, and the knowledge which cannot be spoken against. Whatever things were rightly said among all men, are the property of us Christians. For next to God, we worship and love the Word who is from the unbegotten and ineffable God, since also He became man for our sakes, that becoming a partaker of our sufferings, He might also bring us healing. For all the writers were able to see realities darkly through the sowing of the implanted word that was in them. For the seed and imitation impacted according to capacity is one thing, and quite another is the thing itself, of which there is the participation and imitation according to the grace which is from Him.
+\end{document}

@@ -1,0 +1,72 @@
+\documentclass[9pt, twocolumn, oneside, a4paper]{memoir}
+\usepackage{fontspec}
+\setmainfont{Alegreya}
+\usepackage{ragged2e}
+\newfontfamily\scshape{Alegreya SC}
+\newfontfamily\headingfont{Alegreya Sans SC}
+\newfontfamily\subheadingfont[
+    BoldFont={Alegreya Sans Medium},
+    ItalicFont={Alegreya Sans Light Italic},
+    BoldItalicFont={Alegreya Sans Medium Italic}
+]{Alegreya Sans Light}
+\newfontfamily\greekfont[Script=Greek, Scale=1.14, WordSpace=0.7]{GFS Neohellenic}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+\newcommand{\greektext}[1]{\foreignlanguage{greek}{#1}}
+
+\usepackage{microtype}
+\emergencystretch \hsize
+\tolerance 300%
+\setlength{\parskip}{0pt}
+\frenchspacing
+
+\usepackage{titlesec}
+\titleformat*{\section}{\headingfont}
+
+\setlrmarginsandblock{1.37in}{*}{*}
+\setulmarginsandblock{1.29in}{*}{2}
+
+\checkandfixthelayout
+\setmarginnotes{\columnsep}{0.93in}{0.5\onelineskip}
+
+\pretitle{\par\raggedright\Huge\subheadingfont}
+\title{\textit{Dialogue with Trypho}, ch. 10, 11, 13, 14}
+\posttitle{ \textperiodcentered} 
+\preauthor{\raggedright\Huge\subheadingfont}
+\author{ Justin Martyr}
+\postauthor{\vskip 0.5em}
+\predate{}
+\date{}
+\postdate{}
+
+\newcommand{\gloss}[1]{%
+    \marginpar[\RaggedLeft \footnotesize{#1}]{\RaggedRight \footnotesize{#1}}}
+
+\begin{document}
+\maketitle
+\section*{Chapter 10. Trypho blames the Christians for this alone—the non-observance of the law}
+
+
+And when they ceased, I again addressed them.
+
+\textsc{Justin:} Is there any other matter, my friends, in which we are blamed, than this, that we live not after the law, and are not circumcised in the flesh as your forefathers were, and do not observe sabbaths as you do? Are our lives and customs also slandered among you? And I ask this: have you also believed concerning us, that we eat men; and that after the feast, having extinguished the lights, we engage in promiscuous concubinage? Or do you condemn us in this alone, that we adhere to such tenets, and believe in an opinion, untrue, as you think?
+
+\textsc{Trypho:} This is what we are amazed at, but those things about which the multitude speak are not worthy of belief; for they are most repugnant to human nature. Moreover, I am aware that your precepts in the so-called Gospel are so wonderful and so great, that I suspect no one can keep them; for I have carefully read them. But this is what we are most at a loss about: that you, professing to be pious, and supposing yourselves better than others, are not in any particular separated from them, and do not alter your mode of living from the nations, in that you observe no festivals or sabbaths, and do not have the rite of circumcision; and further, resting your hopes on a man that was crucified, you yet expect to obtain some good thing from God, while you do not obey His commandments. Have you not read, that that soul shall be cut off from his people who shall not have been circumcised on the eighth day? And this has been ordained for strangers and for slaves equally. But you, despising this covenant rashly, reject the consequent duties, and attempt to persuade yourselves that you know God, when, however, you perform none of those things which they do who fear God. If, therefore, you can defend yourself on these points, and make it manifest in what way you hope for anything whatsoever, even though you do not observe the law, this we would very gladly hear from you, and we shall make other similar investigations.
+\section*{Chapter 11. The law abrogated; the New Testament promised and given by God}
+
+\textsc{Justin:} There will be no other God, O Trypho, nor was there from eternity any other existing, but He who made and disposed all this universe. Nor do we think that there is one God for us, another for you, but that He alone is God who led your fathers out from Egypt with a strong hand and a high arm. Nor have we trusted in any other (for there is no other), but in Him in whom you also have trusted, the God of Abraham, and of Isaac, and of Jacob. But we do not trust through Moses or through the law; for then we would do the same as yourselves. But now —(for I have read that there shall be a final law, and a covenant, the chiefest  of all, which it is now incumbent on all men to observe, as many as are seeking after the inheritance of God. For the law promulgated on Horeb is now old, and belongs to yourselves alone; but \textit{this} is for all universally. Now, law placed against law has abrogated that which is before it, and a covenant which comes after in like manner has put an end to the previous one; and an eternal and final law—namely, Christ—has been given to us, and the covenant is trustworthy, after which there shall be no law, no commandment, no ordinance. Have you not read this which Isaiah says: 'Hearken unto Me, hearken unto Me, my people; and, you kings, give ear unto Me: for a law shall go forth from Me, and My judgment shall be for a light to the nations. My righteousness approaches swiftly, and My salvation shall go forth, and nations shall trust in My arm?'  And by Jeremiah, concerning this same new covenant, He thus speaks: 'Behold, the days come, says the Lord, that I will make a new covenant with the house of Israel and with the house of Judah; not according to the covenant which I made with their fathers, in the day that I took them by the hand, to bring them out of the land of Egypt' \gloss{Jeremiah 31:31-32}). If, therefore, God proclaimed a new covenant which was to be instituted, and this for a light of the nations, we see and are persuaded that men approach God, leaving their idols and other unrighteousness, through the name of Him who was crucified, Jesus Christ, and abide by their confession even unto death, and maintain piety. Moreover, by the works and by the attendant miracles, it is possible for all to understand that He is the new law, and the new covenant, and the expectation of those who out of every people wait for the  things of God. For the true spiritual Israel, and descendants of Judah, Jacob, Isaac, and Abraham (who in uncircumcision was approved of and blessed by God on account of his faith, and called the father of many nations), are we who have been led to God through this crucified Christ, as shall be demonstrated while we proceed.
+\section*{Chapter 13. Isaiah teaches that sins are forgiven through Christ's blood}
+
+\textsc{Justin:} For Isaiah did not send you to a bath, there to wash away murder and other sins, which not even all the water of the sea were sufficient to purge; but, as might have been expected, this was that saving bath of the olden time which followed  those who repented, and who no longer were purified by the blood of goats and of sheep, or by the ashes of an heifer, or by the offerings of fine flour, but by faith through the blood of Christ, and through His death, who died for this very reason, as Isaiah himself said, when he spoke thus:
+
+\textit{The Lord shall make bare His holy arm in the eyes of all the nations, and all the nations and the ends of the earth shall see the salvation of God. Depart, depart, depart,  go out from thence, and touch no unclean thing; go out of the midst of her, be clean that bear the vessels of the Lord, for  you go not with haste. For the Lord shall go before you; and the Lord, the God of Israel, shall gather you together. Behold, my servant shall deal prudently; and He shall be exalted, and be greatly glorified. As many were astonished at You, so Your form and Your glory shall be marred more than men. So shall many nations be astonished at Him, and the kings shall shut their mouths; for that which had not been told them concerning Him shall they see, and that which they had not heard shall they consider. Lord,  who has believed our report? And to whom is the arm of the Lord revealed? We have announced Him as a child before Him, as a root in a dry ground. He has no form or comeliness, and when we saw Him He had no form or beauty; but His form is dishonoured, and fails more than the sons of men. He is a man in affliction, and acquainted with bearing sickness, because His face has been turned away; He was despised, and we esteemed Him not. He bears our sins, and is distressed for us; and we esteemed Him to be in toil and in affliction, and in evil treatment. But He was wounded for our transgressions, He was bruised for our iniquities; the chastisement of our peace was upon Him. With His stripes we are healed. All we, like sheep, have gone astray. Every man has turned to his own way; and the Lord laid on Him our iniquities, and by reason of His oppression He opens not His mouth. He was brought as a sheep to the slaughter; and as a lamb before her shearer is dumb, so He opens not His mouth. In His humiliation His judgment was taken away. And who shall declare His generation? For His life is taken from the earth. Because of the transgressions of my people He came unto death. And I will give the wicked for His grave, and the rich for His death, because He committed no iniquity, and deceit was not found in His mouth. And the Lord wills to purify Him from affliction. If he has been given for sin, your soul shall see a long-lived seed. And the Lord wills to take His soul away from trouble, to show Him light, and to form Him in understanding, to justify the righteous One who serves many well. And He shall bear our sins; therefore He shall inherit many, and shall divide the spoil of the strong, because His soul was delivered to death; and He was numbered with the transgressors, and He bore the sins of many, and was delivered for their transgression. Sing, O barren, who bearest not; break forth and cry aloud, you who does not travail in pain: for more are the children of the desolate than the children of the married wife. For the Lord said, Enlarge the place of your tent and of your curtains; fix them, spare not, lengthen your cords, and strengthen your stakes; stretch forth to your right and your left; and your seed shall inherit the Gentiles, and you shall make the desolate cities to be inherited. Fear not because you are ashamed, neither be confounded because you have been reproached; for you shall forget everlasting shame, and shall not remember the reproach of your widowhood, because the Lord has made a name for Himself, and He who has redeemed you shall be called through the whole earth the God of Israel. The Lord has called you as  a woman forsaken and grieved in spirit, as  a woman hated from her youth.'}
+
+\section*{Chapter 14. Righteousness is not placed in Jewish rites, but in the conversion of the heart given in baptism by Christ}
+
+\textsc{Justin:} By reason, therefore, of this laver of repentance and knowledge of God, which has been ordained on account of the transgression of God's people, as Isaiah cries, we have believed, and testify that that very baptism which he announced is alone able to purify those who have repented; and this is the water of life. But the cisterns which you have dug for yourselves are broken and profitless to you. For what is the use of that baptism which cleanses the flesh and body alone? Baptize the soul from wrath and from covetousness, from envy, and from hatred; and, lo! The body is pure. For this is the symbolic significance of unleavened bread, that you do not commit the old deeds of wicked leaven. But you have understood all things in a carnal sense, and you suppose it to be piety if you do such things, while your souls are filled with deceit, and, in short, with every wickedness. Accordingly, also, after the seven days of eating unleavened bread, God commanded them to mingle new leaven, that is, the performance of other works, and not the imitation of the old and evil works. And because this is what this new Lawgiver demands of you, I shall again refer to the words which have been quoted by me, and to others also which have been passed over. They are related by Isaiah to the following effect:
+
+\textit{Hearken to me, and your soul shall live; and I will make with you an everlasting covenant, even the sure mercies of David. Behold, I have given Him for a witness to the people, a leader and commander to the nations. Nations which know not You shall call on You; and peoples who know not You shall escape unto You, because of Your God, the Holy One of Israel, for He has glorified You. Seek God; and when you find Him, call on Him, so long as He may be near you. Let the wicked forsake his ways, and the unrighteous man his thoughts; and let him return unto the Lord, and he will obtain mercy, because He will abundantly pardon your sins. For my thoughts are not as your thoughts, neither are my ways as your ways; but as far removed as the heavens are from the earth, so far is my way removed from your way, and your thoughts from my thoughts. For as the snow or the rain descends from heaven, and shall not return till it waters the earth, and makes it bring forth and bud, and gives seed to the sower and bread for food, so shall My word be that goes forth out of My mouth: it shall not return until it shall have  accomplished all that I desired, and I shall make My commandments prosperous. For you shall go out with joy, and be taught with gladness. For the mountains and the hills shall leap while they expect you, and all the trees of the fields shall applaud with their branches: and instead of the thorn shall come up the cypress, and instead of the brier shall come up the myrtle. And the Lord shall be for a name, and for an everlasting sign, and He shall not fail! }
+
+Of these and such like words written by the prophets, O Trypho, some have reference to the first advent of Christ, in which He is preached as inglorious, obscure, and of mortal appearance: but others had reference to His second advent, when He shall appear in glory and above the clouds; and your nation shall see and know Him whom they have pierced, as Hosea, one of the twelve prophets, and Daniel, foretold.
+\end{document}
